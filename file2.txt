@@ -8,3 +8,5 @@ file2 ie staged contains old version of the file
 
 file2 ie modified and not staged is the new version
 	git add . //new version will get updated in stage
+
+
