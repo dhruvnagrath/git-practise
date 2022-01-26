@@ -1,0 +1,37 @@
+This documents contain all the commands of git->
+
+Q. Types of VCS(Version Control System): 
+Central VCS : remote server/ master database
+Distributed VCS : additional local repositary(folder) in the developer system which contains mirror of master repositary
+
+Q. what is git and its working and its property?
+Git is a distributed version control system that lets you manage and keep track of your source code history.
+
+working:
+When u make any changes in a file git clicks a photo of a file to maintain its record. If there is no change in the file then it will not click any photo.
+
+properties:
+1. changes can be seen
+2. only upload requires internet
+3. 3 stages of files :
+	1. modified : means change in file
+	2. staged : add(collect) to staging area
+	3. commited : commit in local repo from staging area
+all the files are staged first then committed (saved) in local repo
+
+Q. Life cycle of git files
+2 types of files_ : 
+	tracked : 
+		3 types of tracked files:
+			1. unmodified : file in not changed/modified in master repo
+			2. modified : 
+			3. staged :
+	untracked : file not present in staging area or commit
+		2 types of untracked files :
+			1.not in staging area
+			2. not in previous commit
+
+
+
+
+
